@@ -1,0 +1,53 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* font-family: 'Fraunces', serif; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* .product
+.product-img
+.product-info
+.product-category
+.product-name
+.product-desc
+.price-box
+.price-discount
+.price-actual
+.product-btn */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
