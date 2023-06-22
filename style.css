@@ -19,8 +19,13 @@ html {
 }
 
 body {
-  /* font-family: 'Fraunces', serif; */
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  background-color: var(--cream);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -33,20 +38,92 @@ button {
   cursor: pointer;
 }
 
-/* .product
-.product-img
-.product-info
-.product-category
-.product-name
-.product-desc
-.price-box
-.price-discount
-.price-actual
-.product-btn */
+.product {
+  max-width: 60rem;
+  display: flex;
+  border-radius: 1.1rem;
+}
+
+.product-img {
+  flex: 1 1 50%;
+}
+
+.product-img img {
+  width: 100%;
+  display: block;
+  border-top-left-radius: 1.1rem;
+  border-bottom-left-radius: 1.1rem;
+}
+
+.product-info {
+  flex: 1 1 50%;
+  background-color: var(--white);
+  border-top-right-radius: 1.1rem;
+  border-bottom-right-radius: 1.1rem;
+  padding: 3.2rem;
+  color: var(--dark-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.product-category {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.product-name {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: var(--very-dark-blue);
+}
+
+.product-desc {
+  line-height: 1.6;
+}
+
+.price-box {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.price-discount {
+  color: var(--dark-cyan);
+  font-family: 'Fraunces', serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.price-actual {
+  text-decoration: line-through;
+  font-size: 1.2rem;
+}
+
+.product-btn {
+  width: 100%;
+  background-color: var(--dark-cyan);
+  text-align: center;
+  padding: 1.6rem 0;
+  border-radius: 9px;
+  color: var(--white);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.product-btn:hover {
+  background-color: hsl(158, 42%, 18%);
+}
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 4rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
