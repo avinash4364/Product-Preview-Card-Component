@@ -46,10 +46,10 @@ button {
   border-radius: 1.1rem;
 }
 
-.product-img img {
-  width: 100%;
-  height: 100%;
-  display: block;
+.product-img {
+  background-image: url(/images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
   border-top-left-radius: 1.1rem;
   border-bottom-left-radius: 1.1rem;
 }
@@ -132,16 +132,12 @@ button {
 @media (max-width: 720px) {
   .product {
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
     max-width: 90vw;
   }
 
   .product-img {
-    height: 30rem;
-  }
-
-  .product-img img {
-    object-fit: cover;
-    object-position: center;
+    background-image: url(/images/image-product-mobile.jpg);
     border-top-right-radius: 1.1rem;
     border-bottom-left-radius: 0;
   }
