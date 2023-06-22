@@ -26,7 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 5rem;
 }
 
 p {
@@ -68,6 +68,8 @@ button {
 .product-category {
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 700;
+  opacity: 0.5;
 }
 
 .product-name {
