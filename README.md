@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](/images/Screen%20Shot%202023-06-22%20at%2023.05.51.png)
-<img src="./images/Screen%20Shot%202023-06-22%20at%2023.06.27.png" width="400"></img>
+![Screen Shot 2023-06-22 at 23 05 51](https://github.com/avinash4364/Product-Preview-Card-Component/assets/24203618/058b3923-b53b-4051-baf8-b66336aaca6d)
+![Screen Shot 2023-06-22 at 23 06 27](https://github.com/avinash4364/Product-Preview-Card-Component/assets/24203618/79b5d79a-8b8c-45e7-8e9f-79f695db1d6b)
 
 ### Links
 
