@@ -26,6 +26,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
 }
 
 p {
@@ -40,23 +41,20 @@ button {
 
 .product {
   max-width: 60rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   border-radius: 1.1rem;
-}
-
-.product-img {
-  flex: 1 1 50%;
 }
 
 .product-img img {
   width: 100%;
+  height: 100%;
   display: block;
   border-top-left-radius: 1.1rem;
   border-bottom-left-radius: 1.1rem;
 }
 
 .product-info {
-  flex: 1 1 50%;
   background-color: var(--white);
   border-top-right-radius: 1.1rem;
   border-bottom-right-radius: 1.1rem;
@@ -123,8 +121,31 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 4rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* for mobiles */
+@media (max-width: 720px) {
+  .product {
+    grid-template-columns: 1fr;
+    max-width: 90vw;
+  }
+
+  .product-img {
+    height: 30rem;
+  }
+
+  .product-img img {
+    object-fit: cover;
+    object-position: center;
+    border-top-right-radius: 1.1rem;
+    border-bottom-left-radius: 0;
+  }
+
+  .product-info {
+    border-bottom-left-radius: 1.1rem;
+    border-top-right-radius: 0;
+  }
 }
