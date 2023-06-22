@@ -47,7 +47,7 @@ button {
 }
 
 .product-img {
-  background-image: url(/images/image-product-desktop.jpg);
+  background-image: url(./images/image-product-desktop.jpg);
   background-size: cover;
   background-position: center;
   border-top-left-radius: 1.1rem;
@@ -137,7 +137,7 @@ button {
   }
 
   .product-img {
-    background-image: url(/images/image-product-mobile.jpg);
+    background-image: url(./images/image-product-mobile.jpg);
     border-top-right-radius: 1.1rem;
     border-bottom-left-radius: 0;
   }
